@@ -1,0 +1,42 @@
+.player{
+    position: fixed;
+    margin-top: 120px;
+    z-index:999;
+    width: 1000px;
+}
+.Container{
+    display: none;
+    position:absolute;
+    z-index: 100;
+}
+#TrailerMovie-name-dark{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: -100px;
+    font-size: 2.5rem;
+    color: #EE9B00;
+}
+#TrailerMovie-name-light{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: -100px;
+    font-size: 2.5rem;
+    color: #ff206e;
+}
+ 
+@media (max-width: 768px) {
+    .player {
+      margin-top: 100px;
+      width:100%; /* Sesuaikan margin-top sesuai kebutuhan di layar kecil */
+    }
+  
+    #TrailerMovie-name-dark,
+    #TrailerMovie-name-light {
+      font-size: 2rem; /* Sesuaikan ukuran font sesuai kebutuhan di layar kecil */
+    }
+  }
+  
